@@ -1,0 +1,50 @@
+.download-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 400px;
+}
+.links-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "socials-container services-links useful-links downloads-links";
+    min-height: 400px;
+}
+.hero, .features, .users-review, .buy-section, .download, .links, .footer{
+    width: 100%;
+}
+
+.hero-container, .features-container, .features-advantages, .review-container, .container-buyplan-flex, .download-container, .links-container, .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.html {
+    font-size: clamp(3rem, 12vw + 1rem, 10rem);
+}
+.nav{
+    background-color: transparent;
+    justify-content: space-between;
+}
+.hamburger {
+    display: none;
+}
+.nav-bar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.nav-element{
+    background: transparent;
+}
+.hero-btn {
+    display: block;
+    font-size: 1rem;
+    color: white;
+    background-color: aquamarine;
+    margin-right: 0.5rem;
+    text-align: center;
+    min-width: 150px;
+    min-height: 40px;
+    border-radius: 5px;
+}

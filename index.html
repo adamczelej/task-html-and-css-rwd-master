@@ -5,13 +5,235 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="./style/mobile.css">
-    <link rel="stylesheet" href="./style/tablet.css">
-    <link rel="stylesheet" href="./style/desktop.css">
+    <link rel="stylesheet" media="(min-width: 900px)" href="./style/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1200px)" href="./style/desktop.css">
+    <link rel="stylesheet" href="./style/all.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="page-container">
+        <header class="nav-container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="AppLab-logo">
+                </div>
+                <label class="hamburger" for="toggler"> </label>
+                <input class="nav__toggler" type="checkbox" id="toggler">
+                <ul class="nav-bar">
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Home</li>
+                    </a>
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Features</li>
+                    </a>
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Pricing</li>
+                    </a>
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Blog</li>
+                    </a>
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Pages</li>
+                    </a>
+                    <a class="nav-link" href="">
+                        <li class="nav-element">Contact</li>
+                    </a>
+                </ul>
+                <button class="hero-btn">Download Now</button>
+            </nav>
+            <section class="hero">
+                <div class="hero-container">
+                    <div class="flex-2items">   
+                        <h1 class="hero-header">
+                            Promote Your App With Applab
+                        </h1>
+                        <p class="hero-paragraph">Get more users to promote your app with this template</p>
+                        <button class="get-started-btn">Get Start Now</button>
+                    </div>  
+                    <div class="phone-img">
+                        <img class="phone" src="./images/phone.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="features">
+                <div class="features-container">
+                    <h2 class="features-header">
+                        Save your time to using applab
+                    </h2>
+                    <div class="team-block grid-1">
+                        <img class="icon-color1 icon-shape"src="./images/icons/1.svg" alt="1">
+                        <p class="feature-descr">Manage team in one place</p>
+                    </div>
+                    <div class="team-block grid-2">
+                        <img class="icon-color2 icon-shape" src="./images/icons/2.svg" alt="1">
+                        <p class="feature-descr">All powerfull pointing</p>
+                    </div>
+                    <div class="team-block grid-3">
+                        <img class="icon-color3 icon-shape"src="./images/icons/3.svg" alt="1">
+                        <p class="feature-descr">Establish a solid online presence</p>
+                    </div>
+                    
+                </div>
+                <div class="features-advantages">
+                    <div class="features-flex">
+                        <h2 class="features-header-second">
+                            Features that give you real feel
+                        </h2>
+                        <article class="features-adv-desc">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum non aperiam cum necessitatibus, ipsam excepturi ullam consequuntur omnis nulla corrupti ut quis deserunt voluptate cumque.
+                        </article>
+                        <button class="features-btn">
+                            Download Now
+                        </button>
+                    </div>    
+                    <div class="features-img">
+                        <img src="./images/draw.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="users-review">
+                <article class="review-container">
+                    <h2 class="review-header">
+                        Review from our regular users
+                    </h2>
+                    <p class="comment">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eos quos, omnis sed itaque molestiae voluptates eius repellendus voluptatibus aliquid rem facere modi vel ex veritatis repellat quam a. Nam?
+                    </p>
+                </article>
+            </section>
+
+            <section class="buy-section">
+                <header class="buy-header">
+                    <h2 class="unlock-full">
+                        Unlock full Power
+                    </h2>
+                    <p class="buy-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corrupti, architecto suscipit quo debitis asperiores ex dicta.
+                    </p>
+                </header>
+                <div class="container-buyplan-flex">
+                    <div class="plan-container plan--width basic-plan">
+                        <header class="buy-plan-header">
+                            <h3 class="name-plan-header">Basic</h3>
+                            <p class="price">$06</p>
+                        </header>
+                        <ul class="plan">
+                            <li class="plan-items">One User</li>
+                            <li class="plan-items">1000 ui elements</li>
+                            <li class="plan-items">Webmail Support</li>
+                            <li class="plan-items">100GB Cloud Storage</li>
+                        </ul>
+                        <button class="buy-section-button"> Get Now</button>
+                    </div>
+                    <div class="plan-team plan-container plan--width">
+                        <header class="buy-plan-header plan--color">
+                            <h3 class="name-plan-header">Basic</h3>
+                            <p class="price">$06</p>
+                        </header>
+                        <ul class="plan">
+                            <li class="plan-items">One User</li>
+                            <li class="plan-items">1000 ui elements</li>
+                            <li class="plan-items">Webmail Support</li>
+                            <li class="plan-items">100GB Cloud Storage</li>
+                        </ul>
+                        <button class="buy-section-button"> Get Now</button>
+                    </div>
+                    <div class="plan-business plan-container plan--width">
+                        <header class="buy-plan-header plan--color2">
+                            <h3 class="name-plan-header">Basic</h3>
+                            <p class="price">$06</p>
+                        </header>
+                        <ul class="plan">
+                            <li class="plan-items">One User</li>
+                            <li class="plan-items">1000 ui elements</li>
+                            <li class="plan-items">Webmail Support</li>
+                            <li class="plan-items">100GB Cloud Storage</li>
+                        </ul>
+                        <button class="buy-section-button"> Get Now</button>
+                    </div>
+                </div>
+            </section>
+            <section class="download">
+                <div class="download-container">
+                    <h2 class="download-header">
+                        Get start from now and increase productivity
+                    </h2>
+                    <ul class="download-btns">
+                        <li class="download-icon">
+                            <a href="#">
+                                <img src="./images/app.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="download-icon">
+                            <a href="#">
+                                <img src="./images/play.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="links">
+                <div class="links-container">
+                    <div class="socials-container">
+                            <img src="./images/logo.png" alt="Applab">
+                        </h2>
+                        <p class="links-paragraph">
+                            Firmament morning sixth subdue creeping gathered divide.
+                        </p>
+                        <div class="links-icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                   
+                    <div class="services-links block--style">
+                        <h3 class="services-header text--style">
+                            Services
+                        </h3>
+                        <ul class="services-links-list">
+                            <li class="links-elem">Team management</li>
+                            <li class="links-elem">Collaboration</li>
+                            <li class="links-elem">Todo</li>
+                            <li class="links-elem">Events</li>
+                        </ul>
+                    </div>
+                    <div class="useful-links block--style">
+                        <h3 class="useful-header text--style">
+                            Useful Links
+                        </h3>
+                        <ul class="useful-links-list">
+                            <li class="links-elem">Pricing</li>
+                            <li class="links-elem">Features</li>
+                            <li class="links-elem">Blog</li>
+                            <li class="links-elem">Contact</li>
+                        </ul>
+                    </div>
+                    <div class="downloads-links block--style">
+                        <h3 class="downloads-header text--style">
+                            Downloads
+                        </h3>
+                        <ul class="downloads-links-list">
+                            <li class="links-elem">Download from Apple Store</li>
+                            <li class="links-elem">Download from Play Store</li>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="footer-paragraph">Copyright 2020 All rights reserved | This template is made with L o V e by <br><a href="" style="color: blue"> Colorlib</a></p>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
